@@ -1,5 +1,5 @@
 * {
-    font-family: 'Nanum Gothic', sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 
 /* Back Ground Color */
@@ -28,6 +28,10 @@ nav {
 .navbar-toggler {
     margin-right: 10%;
 }
+
+.nav-item {
+    margin: 5px;
+}
 /* NavBar */
 /* Footer */
 .footer p{
@@ -43,26 +47,38 @@ nav {
     background-color: rgb(255, 255, 255);
     margin-left: 10%;
     margin-right: 10%;
-    padding: 10px;
+    padding: 20px;
     border-radius: 3px;
     box-shadow: 0px 0px 20px 0px #999;
 }
 
+.article h1, h2, #googleMap {
+    margin-bottom: 20px;
+}
+
 .article h1{
     border-bottom: solid rgb(200, 200, 200) 1px;
-    margin: 10px;
     padding-bottom: 10px;
     color: rgb(127, 161, 172);
 }
 
-.article p{
-    padding: 10px;
+.article h2 {
+    font-weight: bold;
+    font-size: 25px;
 }
 
 .article h1 .h1-border{
+    font-weight: bold;
     padding: 10px;
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
     border-bottom: solid 3px rgb(127, 161, 172);
 }
 /* Article */
+/* Google Map */
+#googleMap{
+    width: 100%;
+    height: 400px;
+}
+/* Google Map */
+
