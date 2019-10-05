@@ -1,27 +1,42 @@
+* {
+    font-family: 'Nanum Gothic', sans-serif;
+}
+
 /* Back Ground Color */
 html body {
     background-color: rgb(230, 230, 230);
 }
+/* Back Ground Color */
 /* NavBar */
 nav {
     background-color: rgba(167, 201, 212, 80);
-    border-radius: 0 0 15px 15px;
+    border-radius: 0 0 5px 5px;
 }
 
 .navbar-brand{
     margin-left: 10%;
 }
 
+.navbar-brand img {
+    width: 80%;
+}
+
 .login{
     margin-right: 10%;
 }
+
+.navbar-toggler {
+    margin-right: 10%;
+}
+/* NavBar */
 /* Footer */
 .footer p{
     margin-left: 10%;
     color: grey;
     font-size: 70%;
-    margin-top: 10px;
+    margin-top: 15px;
 }
+/* Footer */
 /* Article */
 .article {
     margin-top: 50px;
@@ -45,6 +60,9 @@ nav {
 }
 
 .article h1 .h1-border{
-    padding-bottom: 10px;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
     border-bottom: solid 3px rgb(127, 161, 172);
 }
+/* Article */

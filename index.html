@@ -2,48 +2,73 @@
 
 <html lang="ko">
     <head>
-        <link href="./assets/stylesheet.css" type="text/css" rel="stylesheet" />
         <title>Software Engineering Lab</title>
         <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!--  BootStrap -->
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-
+        <!-- StyleSheet CSS -->
+        <link href="./assets/stylesheet.css" type="text/css" rel="stylesheet" />
+        <!-- Google Font(나눔고딕) -->
+        <link href="https://fonts.googleapis.com/css?family=Nanum+Gothic&display=swap" rel="stylesheet">
     </head>
 
     <body>
+        <!-- Navbar -->
         <nav class="navbar navbar-expand-lg navbar-light">
             <a class="navbar-brand" href="#"><img src="https://selab.hanyang.ac.kr/common/images/selab_logo_S.png" alt="Logo"/></a>
-            <div class="collapse navbar-collapse">
-                <ul class="navbar-nav mr-auto">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                <ul class="nav navbar-nav mr-auto">
                     <li class="nav-item active">
-                        <a class="btn btn-info nav-link" href="#" role="button">NOTICE</a>
+                        <a class="btn btn-info nav-link" href="#">HOME</a>
                     </li>
                     <li class="nav-item">
-                        <a class="btn nav-link" href="#" role="button">MEMBER</a>
+                        <a class="btn nav-link" href="#">NOTICE</a>
                     </li>
                     <li class="nav-item">
-                        <a class="btn nav-link" href="#" role="button">PUBLICATION</a>
+                        <a class="btn nav-link" href="#">MEMBER</a>
                     </li>
                     <li class="nav-item">
-                        <a class="btn nav-link" href="#" role="button">COURSES</a>
+                        <a class="btn nav-link" href="#">PUBLICATION</a>
                     </li>
                     <li class="nav-item">
-                        <a class="btn nav-link" href="#" role="button">GALLARY</a>
+                        <a class="btn nav-link" href="#">COURSES</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="btn nav-link dropdown-toggle" id="gallary" href="#" data-toggle="dropdown">GALLARY</a>
+                        <div class="dropdown-menu" aria-labelledby="gallary">
+                            <a class="dropdown-item" href="#">Conference</a>
+                            <a class="dropdown-item" href="#">Social Activity</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="#">Etc..</a>
+                        </div>
                     </li>
                 </ul>
-                <ul class="navbar-nav login">
+                <ul class="nav navbar-nav login mr-auto">
                     <li class="nav-item">
-                        <a class="btn nav-link" href="#" role="button">CONTACT</a>
+                        <a class="btn nav-link" href="#">CONTACT</a>
                     </li>
                     <li class="nav-item">
-                        <a class="btn nav-link" href="#" role="button">LOGIN</a>
+                        <a class="btn nav-link" href="#">LOGIN</a>
                     </li>
                 </ul>
             </div>
         </nav>
+        <!-- Article -->
         <div class="article">
             <h1><span class="h1-border">이건 제목이야</span></h1>
             <p>여기는 본문이야 Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam nisi ipsum necessitatibus autem, cupiditate esse iusto accusamus corrupti minima odio natus expedita voluptatum unde enim magnam illum quia quam dolorum?</p>
+            <h1><span class="h1-border">이건 제목이야2</span></h1>
+            <p>여기는 본문이야 Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam nisi ipsum necessitatibus autem, cupiditate esse iusto accusamus corrupti minima odio natus expedita voluptatum unde enim magnam illum quia quam dolorum?</p>
         </div>
+        <!-- Footer -->
         <div class="footer">
             <p>@ 2019 HYU-ERICA SE Lab - 우리 조이름</p>
         </div>
