@@ -14,8 +14,6 @@
             <p>여기는 본문이야 Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam nisi ipsum necessitatibus autem, cupiditate esse iusto accusamus corrupti minima odio natus expedita voluptatum unde enim magnam illum quia quam dolorum?</p>
         </div>
         <!-- Footer -->
-        <div class="footer">
-            <p>@ 2019 HYU-ERICA SE Lab - 우리 조이름</p>
-        </div>
+        <?php include('assets/php/footer.php'); ?>
     </body>
 </html>
