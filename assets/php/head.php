@@ -9,6 +9,9 @@
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
         <!-- StyleSheet CSS -->
         <link href="./assets/css/stylesheet.css" type="text/css" rel="stylesheet" />
+        <link rel="stylesheet" href="assets/css/owl.carousel.css" />
+        <link rel="stylesheet" href="assets/css/owl.theme.default.css" />
+        <link rel="stylesheet" href="assets/css/main.css?v=0.075" />
         <!-- Google Font(Nanum Gothic|Roboto) -->
         <link href="https://fonts.googleapis.com/css?family=Nanum+Gothic|Roboto&display=swap" rel="stylesheet">
     </head>

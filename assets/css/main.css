@@ -9,7 +9,7 @@
 
 /* Reset */
 
-	html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+	html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article_test, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
 		margin: 0;
 		padding: 0;
 		border: 0;
@@ -22,7 +22,7 @@
 		line-height: 1.5;
 	}
 
-	article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+	article_test, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
 		display: block;
 	}
   menu{
@@ -2522,9 +2522,9 @@
 		border-top-color: #e5474b;
 	}
 
-/* Section/Article */
+/* Section/Article_test */
 
-	section.special, article.special {
+	section.special, article_test.special {
 		text-align: center;
 	}
 
@@ -3749,15 +3749,15 @@ nav {
 			flex-direction: row;
 		}
 
-			#two .inner article {
+			#two .inner article_test {
 				width: 50%;
 			}
 
-				#two .inner article:first-child {
+				#two .inner article_test:first-child {
 					padding-right: 6em;
 				}
 
-				#two .inner article:last-child {
+				#two .inner article_test:last-child {
 					padding-left: 6em;
 				}
 
@@ -3778,16 +3778,16 @@ nav {
 					flex-direction: column;
 				}
 
-					#two .inner article {
+					#two .inner article_test {
 						width: 100%;
 					}
 
-						#two .inner article:first-child {
+						#two .inner article_test:first-child {
 							padding-right: 0;
 							padding-bottom: 2em;
 						}
 
-						#two .inner article:last-child {
+						#two .inner article_test:last-child {
 							padding-left: 0;
 							padding-top: 2em;
 						}
@@ -3831,23 +3831,23 @@ nav {
 			-ms-flex-pack: justify;
 		}
 
-			#three .inner article {
+			#three .inner article_test {
 				width: 26%;
 				display: inline-block;
 			}
 
-				#three .inner article p {
+				#three .inner article_test p {
 					color: #717171;
 				}
 
-				#three .inner article .icon {
+				#three .inner article_test .icon {
 					color: #b3b3b3;
 					font-size: 3em;
 				}
 
 			@media screen and (max-width: 980px) {
 
-					#three .inner article {
+					#three .inner article_test {
 						width: 100%;
 						margin: 0 auto;
 					}
