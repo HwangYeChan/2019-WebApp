@@ -2,7 +2,7 @@
 
 <html lang="ko">
     <?php include('./assets/php/head.php'); ?>
-    <?php $currentpage = 'HOME'; ?>
+    <?php $currentpage = 'RESEARCH'; ?>
     <body>
         <!-- Navbar -->
         <?php include('assets/php/navbar.php'); ?>
