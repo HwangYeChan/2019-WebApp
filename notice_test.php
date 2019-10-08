@@ -1,7 +1,8 @@
 <!DOCTYPE HTML>
 
 <html lang="ko">
-    <?php include('assets/php/head.php'); ?>
+	<?php include('assets/php/head.php'); ?>
+	<link rel="stylesheet" href="assets/css/notice.css" />
     <?php $currentpage = 'MEMBER'; ?>
     <body>
         <!-- Navbar -->
