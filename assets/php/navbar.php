@@ -6,14 +6,14 @@
 
             <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
                 <ul class="nav navbar-nav mr-auto">
-                    <li class="nav-item <?php if ($currentpage === 'HOME') {echo ' active';} ?>">
-                        <a class="btn nav-link <?php if ($currentpage === 'HOME') {echo ' btn-info';} ?>" href="index.php">HOME</a>
-                    </li>
                     <li class="nav-item <?php if ($currentpage === 'NOTICE') {echo ' active';} ?>">
                         <a class="btn nav-link <?php if ($currentpage === 'NOTICE') {echo ' btn-info';} ?>" href="notice.php">NOTICE</a>
                     </li>
                     <li class="nav-item <?php if ($currentpage === 'MEMBER') {echo ' active';} ?>">
                         <a class="btn nav-link <?php if ($currentpage === 'MEMBER') {echo ' btn-info';} ?>" href="member.php">MEMBER</a>
+                    </li>
+                    <li class="nav-item <?php if ($currentpage === 'RESEARCH') {echo ' active';} ?>">
+                        <a class="btn nav-link <?php if ($currentpage === 'RESEARCH') {echo ' btn-info';} ?>" href="research.php">RESEARCH</a>
                     </li>
                     <li class="nav-item <?php if ($currentpage === 'PUBLICATION') {echo ' active';} ?>">
                         <a class="btn nav-link <?php if ($currentpage === 'PUBLICATION') {echo ' btn-info';} ?>" href="publication.php">PUBLICATION</a>
