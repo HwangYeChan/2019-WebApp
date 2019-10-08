@@ -5,7 +5,6 @@
 <link rel="stylesheet" href="assets/css/owl.carousel.css" />
 <link rel="stylesheet" href="assets/css/owl.theme.default.css" />
 <link rel="stylesheet" href="assets/css/main.css?v=0.075" />
-<link rel="stylesheet" href="assets/css/notice.css" />
 <?php $currentpage = 'HOME'; ?>
 <body>
     <!-- Navbar -->
