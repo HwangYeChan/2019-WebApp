@@ -139,3 +139,62 @@ nav {
     float: left;
 }
 /* members */
+
+/* notices */
+.notices-section:first-child {
+    margin: 100% 5% 0% 5%;
+    padding: 1% 2% 1% 2%;
+    background-color: rgb(255, 255, 255);
+    border-radius: 3px;
+}
+
+.notices-section {
+    margin: 0% 5% 0% 5%;
+    padding: 1% 2% 0% 2%;
+    background-color: rgb(255, 255, 255);
+    border-radius: 3px;
+    /* border: 1px solid black; */
+}
+
+/* .post-simbol {
+    float: left;
+    border: 1px solid red;
+    margin: 0%;
+    width: 10%;
+} */
+
+.post-content {
+    float: right;
+    border: 1px solid yellow;
+} */
+
+.post-title {
+    float: left;
+    font-size: 140%;
+    /* border: 1px solid green; */
+}
+
+.post-title a{
+    color: rgb(24, 130, 146);
+}
+
+.post-date {
+    float: right;
+    color: rgba(0, 0, 0, 0.411);
+    font-size: 60%;
+    /* border: 1px solid blue; */
+}
+
+.post-summary {
+    clear: both;
+    font-size: 70%;
+    /* border: 1px solid pink; */
+}
+
+hr {
+    color: rgba(0, 0, 0, 0.411);
+    padding: 0%;
+    margin: 1% 0% 0% 0%;
+}
+
+/* notices */
