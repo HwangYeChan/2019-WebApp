@@ -3,7 +3,7 @@
 <html lang="ko">
 <?php include('./assets/php/head.php'); ?>
 <link rel="stylesheet" href="assets/css/owl.carousel.css" />
-<link rel="stylesheet" href="assets/css/owl.theme.default.css" />
+<link rel="stylesheet" href="assets/css/owl.theme.default.css" /> <!-- scroll symbol -> side  -->
 <link rel="stylesheet" href="assets/css/main.css?v=0.075" />
 <?php $currentpage = 'HOME'; ?>
 <body>
@@ -15,15 +15,9 @@
       <section id="banner-bg">
         <section class="banner-bg2">
 
-        <!-- Header -->
-        <header id="header">
-          <div class="inner header_inner">
-            <!-- <a href="." class="logo"><img class="logo-image" src="./images/snu_logo_white.png" />&nbsp; <img class="logo-image" src="./images/mllab-logo-new.png" /></a> -->
-          </div>
-        </header>
-        <a href="#menu" class="navPanelToggle"><span class="fa fa-bars"></span></a>
         <section id="banner">
           <div class="banner-pad">
+
             <!-- Banner -->
             <div class="inner">
               <h1>WELCOME TO SELAB</h1>
@@ -38,7 +32,7 @@
             <div class="item">
               <div class="slide-entry-bg">
                 <div class="slide-entry">
-                  22 April 2019
+                  22 Apr 2019
                   <br/>
                     <h4 style="margin-top: 0.5em">Three papers accepted at ICML</h4>
                     <p style="margin: 0.5em 0;line-height:1.4">Three papers accepted at ICML2019, two as long talks (link <a href="http://proceedings.mlr.press/v97/jeong19d/jeong19d.pdf">1</a>, <a href="http://proceedings.mlr.press/v97/moon19a/moon19a.pdf">2</a>, <a href="http://proceedings.mlr.press/v97/kim19a/kim19a.pdf">3</a>)</p>
@@ -49,7 +43,7 @@
             <div class="item">
               <div class="slide-entry-bg">
                 <div class="slide-entry">
-                  26 March 2019
+                  26 Mar 2019
                   <br/>
                     <h4 style="margin-top: 0.5em">Scholarship granted</h4>
                     <p style="margin: 0.5em 0;line-height:1.4">MS/Phd Students Hyoungseok Kim and Seungyong Moon became recipients of <a href="http://kfas.or.kr/">KFAS</a> Computer Science Scholarship.</p>
@@ -60,7 +54,7 @@
             <div class="item">
               <div class="slide-entry-bg">
                 <div class="slide-entry">
-                  25 February 2019
+                  25 Feb 2019
                   <br/>
                     <h4 style="margin-top: 0.5em">Paper accepted at CVPR</h4>
                     <p style="margin: 0.5em 0;line-height:1.4">One paper accepted at CVPR2019 (<a href="http://openaccess.thecvf.com/content_CVPR_2019/papers/Jeong_End-To-End_Efficient_Representation_Learning_via_Cascading_Combinatorial_Optimization_CVPR_2019_paper.pdf">link</a>)</p>
@@ -82,7 +76,7 @@
             <div class="item">
               <div class="slide-entry-bg">
                 <div class="slide-entry">
-                  18 April 2018
+                  18 Apr 2018
                   <br/>
                     <h4 style="margin-top: 0.5em">Scholarship granted</h4>
                     <p style="margin: 0.5em 0;line-height:1.4">MS/Phd Student Jaekyeom Kim became a recipient of <a href="http://ikef.or.kr/">Kwanjeong</a> Domestic Scholarship.</p>
@@ -93,7 +87,7 @@
             <div class="item">
               <div class="slide-entry-bg">
                 <div class="slide-entry">
-                  5 April 2018
+                  5 Apr 2018
                   <br/>
                     <h4 style="margin-top: 0.5em">Scholarship granted</h4>
                     <p style="margin: 0.5em 0;line-height:1.4">MS/Phd Student Yeonwoo Jeong became a recipient of <a href="http://kfas.or.kr/">KFAS</a> Computer Science Scholarship.</p>
@@ -104,7 +98,7 @@
             <div class="item">
               <div class="slide-entry-bg">
                 <div class="slide-entry">
-                  13 October 2017
+                  13 Oct 2017
                   <br/>
                     <h4 style="margin-top: 0.5em">Code open sourced</h4>
                     <p style="margin: 0.5em 0;line-height:1.4">Tensorflow code for the deep metric learning methods is officially open sourced at <a href="https://www.tensorflow.org/versions/master/api_docs/python/tf/contrib/losses/metric_learning">tf.contrib.losses.metric_learning</a></p>
@@ -115,10 +109,10 @@
             <div class="item">
               <div class="slide-entry-bg">
                 <div class="slide-entry">
-                  1 September 2017
+                  1 Sep 2017
                   <br/>
-                    <h4 style="margin-top: 0.5em">Welcome to MLLAB</h4>
-                    <p style="margin: 0.5em 0;line-height:1.4">SNU MLLAB has officially opened.</p>
+                    <h4 style="margin-top: 0.5em">Welcome to SELAB</h4>
+                    <p style="margin: 0.5em 0;line-height:1.4">HYU ERICA SELAB has officially opened.</p>
                 </div>
               </div>
             </div>  

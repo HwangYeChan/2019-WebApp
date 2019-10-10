@@ -109,8 +109,8 @@
                     <hr/>
                 </div>
             </div>
-
         </div>
+        
         <!-- Footer -->
         <?php include('assets/php/footer.php'); ?>
     </body>
