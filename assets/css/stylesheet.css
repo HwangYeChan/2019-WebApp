@@ -155,41 +155,29 @@ nav {
     border-radius: 3px;
     /* border: 1px solid black; */
 }
-
-/* .post-simbol {
-    float: left;
-    border: 1px solid red;
-    margin: 0%;
-    width: 10%;
-} */
-
 .post-title {
     float: left;
     /* border: 1px solid green; */
 }
-
 .post-title a{
-    font-size: 140%;
+    font-size: 150%;
     color: rgb(24, 130, 146);
 }
-
 .post-date {
     float: right;
     color: rgba(0, 0, 0, 0.411);
     font-size: 70%;
     /* border: 1px solid blue; */
 }
-
 .post-summary {
     clear: both;
-    font-size: 80%;
+    font-size: 90%;
     /* border: 1px solid pink; */
 }
-
 hr {
     color: rgba(0, 0, 0, 0.411);
     padding: 0%;
-    margin: 1% 0% 0% 0%;
+    margin: 3% 0% 3% 0%;
 }
 
 /* notices */
@@ -206,13 +194,14 @@ hr {
 .courses-title {
     padding: 1% 0% 1% 0%;
     text-align: center;
-    font-size: 120%;
+    font-size: 130%;
     background-color: rgb(169, 194, 202);
     color : white;
     /* border : 1px solid yellow; */
 }
 .courses-content {
     padding: 1% 0% 1% 0%;
+    font-size: 110%;
     clear: both;
     overflow: hidden;
     /* border : 1px solid blue; */
