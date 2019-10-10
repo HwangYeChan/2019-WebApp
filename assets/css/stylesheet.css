@@ -198,3 +198,31 @@ hr {
 }
 
 /* notices */
+
+/* courses */
+.courses-section {
+    margin: 0% 5% 0% 5%;
+    padding: 1% 2% 0% 2%;
+    background-color: rgb(255, 255, 255);
+    border-radius: 3px;
+    border : 1px solid red;
+}
+
+.courses-title {
+    float: left;
+    border : 1px solid yellow;
+}
+.courses-title {
+    float: left;
+    border : 1px solid green;
+}
+.courses-slides {
+    float: right;
+    border : 1px solid blue;
+}
+.courses-home {
+    float: right;
+    border : 1px solid pink;
+}
+
+/* courses */
