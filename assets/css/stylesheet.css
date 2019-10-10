@@ -163,31 +163,26 @@ nav {
     width: 10%;
 } */
 
-.post-content {
-    float: right;
-    border: 1px solid yellow;
-} */
-
 .post-title {
     float: left;
-    font-size: 140%;
     /* border: 1px solid green; */
 }
 
 .post-title a{
+    font-size: 140%;
     color: rgb(24, 130, 146);
 }
 
 .post-date {
     float: right;
     color: rgba(0, 0, 0, 0.411);
-    font-size: 60%;
+    font-size: 70%;
     /* border: 1px solid blue; */
 }
 
 .post-summary {
     clear: both;
-    font-size: 70%;
+    font-size: 80%;
     /* border: 1px solid pink; */
 }
 
@@ -253,5 +248,69 @@ hr {
 .courses-content a {
     color: white;
 }
-
 /* courses */
+
+/* index */
+.img-section {
+	margin: 10px auto;
+    position: relative;
+    background-color: rgb(149, 149, 149);
+}
+.img-section img {
+	width: 100%;
+    vertical-align: middle;
+    opacity: 0.6;
+}
+.img-text {
+    padding: 20px 10px 20px 10px;
+	text-align: center;
+	position: absolute;
+	top: 50%;
+    left: 50%;
+    transform: translate( -50%, -90% );
+    color: white;
+    box-shadow: 0px 0px 20px 0px #999;
+}
+.img-text h1 {
+    color: white;
+}
+.img-text h1 .h1-border {
+    font-weight: bold;
+    border-bottom: solid 3px white;
+}
+.scroll-section {
+    padding: 0% 5% 0% 5%;
+    position: absolute;
+    transform: translate( 0%, -100% );
+    background-color: rgba(167, 201, 212, 80);
+    box-shadow: 0px 0px 5px 0px #999;
+    opacity: 0.9;
+}
+.scroll-item {
+    width: 18%;
+    height: 30%;
+    margin: 0% 1% 0% 1%;
+    float: left;
+    color: white;
+}
+.scroll-title {
+    font-size: 140%;
+    font-weight: bold;
+    text-align: center;
+    margin: 5% 0% 5% 0%;
+}
+.scroll-title a {
+    color: white;
+}
+.scroll-summary {
+    margin: 5% 0% 5% 0%;
+    font-size: 80%; 
+}
+.scroll-summary a {
+    color: white;
+    font-weight: bold;
+    font-size: 110%;
+}
+
+
+/* index */

@@ -23,7 +23,7 @@
                             29 Aug 2014
                         </div>
                         <div class="post-summary">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam nisi ipsum necessitatibus autem, cupiditate esse iusto accusamus corrupti minim...
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam nisi ipsum necessitatibus autem, cupiditate esse iusto accusamus corrupti mini...
                         </div>
                     </div>
                     <hr/>
@@ -39,7 +39,7 @@
                         29 Apr 2014
                     </div>
                     <div class="post-summary">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam nisi ipsum necessitatibus autem, cupiditate esse iusto accusamus corrupti minim...
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam nisi ipsum necessitatibus autem, cupiditate esse iusto accusamus corrupti mini...
                     </div>
                     <hr/>
                 </div>
@@ -54,7 +54,7 @@
                         06 Mar 2014
                     </div>
                     <div class="post-summary">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam nisi ipsum necessitatibus autem, cupiditate esse iusto accusamus corrupti minim...
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam nisi ipsum necessitatibus autem, cupiditate esse iusto accusamus corrupti mini...
                     </div>
                     <hr/>
                 </div>
@@ -73,7 +73,7 @@
                             29 Aug 2014
                         </div>
                         <div class="post-summary">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam nisi ipsum necessitatibus autem, cupiditate esse iusto accusamus corrupti minim...
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam nisi ipsum necessitatibus autem, cupiditate esse iusto accusamus corrupti mini...
                         </div>
                     </div>
                     <hr/>
@@ -89,7 +89,7 @@
                         29 Apr 2014
                     </div>
                     <div class="post-summary">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam nisi ipsum necessitatibus autem, cupiditate esse iusto accusamus corrupti minim...
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam nisi ipsum necessitatibus autem, cupiditate esse iusto accusamus corrupti mini...
                     </div>
                     <hr/>
                 </div>
@@ -104,7 +104,7 @@
                         06 Mar 2014
                     </div>
                     <div class="post-summary">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam nisi ipsum necessitatibus autem, cupiditate esse iusto accusamus corrupti minim...
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam nisi ipsum necessitatibus autem, cupiditate esse iusto accusamus corrupti mini...
                     </div>
                     <hr/>
                 </div>
