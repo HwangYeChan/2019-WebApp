@@ -7,13 +7,19 @@
         <!-- Navbar -->
         <?php include('assets/php/navbar.php'); ?>
         <!-- Article -->
-        <div class="article">
-            <h1><span class="h1-border">이건 제목이야</span></h1>
-            <p>여기는 본문이야 Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam nisi ipsum necessitatibus autem, cupiditate esse iusto accusamus corrupti minima odio natus expedita voluptatum unde enim magnam illum quia quam dolorum?</p>
-            <h2>이건 제목이야2</h2>
-            <p>여기는 본문이야 Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam nisi ipsum necessitatibus autem, cupiditate esse iusto accusamus corrupti minima odio natus expedita voluptatum unde enim magnam illum quia quam dolorum?</p>
+        <div class="login-article">
+            <h1><span class="h1-border">Login</span></h1>
+            <form action="./assets/php/login.php">
+                <div class="form-group">
+                    <input class="form-control" name="username" placeholder="Username"/>
+                </div>
+                <div class="form-group">
+                    <input class="form-control" type="password" name="password" placeholder="Password"/>
+                </div>
+                <button class="btn-primary btn btn-lg pull-right" type="submit"><span class="glyphicon glyphicon-ok" aria-hidden="true"></span>Login</button>
+            </form>
         </div>
         <!-- Footer -->
-        <?php include('assets/php/footer.php'); ?>
+        <!-- <?php include('assets/php/footer.php'); ?> -->
     </body>
 </html>

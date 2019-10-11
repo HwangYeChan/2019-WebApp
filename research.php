@@ -8,10 +8,35 @@
         <?php include('assets/php/navbar.php'); ?>
         <!-- Article -->
         <div class="article">
-            <h1><span class="h1-border">이건 제목이야</span></h1>
-            <p>여기는 본문이야 Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam nisi ipsum necessitatibus autem, cupiditate esse iusto accusamus corrupti minima odio natus expedita voluptatum unde enim magnam illum quia quam dolorum?</p>
-            <h2>이건 제목이야2</h2>
-            <p>여기는 본문이야 Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam nisi ipsum necessitatibus autem, cupiditate esse iusto accusamus corrupti minima odio natus expedita voluptatum unde enim magnam illum quia quam dolorum?</p>
+        <div class="research">
+            <h1><span class="h1-border">RESEARCH</span></h1>
+                <h2 class="intro">introduction</h2>
+                <p class="title">Web&Web security</p>
+                <ul class="content">
+                    <img src="https://selab.hanyang.ac.kr/research/images/web_securitymodified.png" width="100" height="60"/>
+                    <li>1</li>
+                    <li>2</li></ul>
+                <p class="title">Formal Engineering Methods</p>
+                <ul class= "content">
+                    <img src= "https://selab.hanyang.ac.kr/research/images/formalmethod.png" width="100" height="60"/>
+                    <li>1</li>
+                    <li>2</li></ul>
+                <p class="title">Requirement Engineering</p>
+                <ul class="content">
+                    <img src="https://selab.hanyang.ac.kr/research/images/RE.png" width="100" height="60"/>                    
+                    <li>1</li>
+                    <li>2</li></ul>
+                <p class="title">Real-Time Software Engineering</p>
+                <ul class="content">
+                    <img src="https://selab.hanyang.ac.kr/research/images/Realtime.png" width="100" height="60" />
+                    <li>1</li>
+                    <li>2</li></ul>
+                <p class="title">Semi-structured Data</p>
+                <ul class="content"> 
+                    <img src="https://selab.hanyang.ac.kr/research/images/XML.png" width="100" height="60" />
+                    <li>1</li>
+                    <li>2</li></ul>
+        </div>
         </div>
         <!-- Footer -->
         <?php include('assets/php/footer.php'); ?>
